@@ -1,0 +1,26 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee fluid2 feature.
+ */
+
+include_once 'logancee_fluid2.features.inc';
+
+/*
+* Implements template_preprocess_node
+*/
+function logancee_fluid2_preprocess_node(&$variables) {
+  if ($variables['node']->type == "fluid2_slider") {
+    $node = $variables['node'];
+
+    $field_items = field_get_items('node', $node, 'field_background_image');
+    $uri = $field_items[0]['uri'];
+
+    if (isset($uri)) {
+      $variables['image_background_url'] = file_create_url($uri);
+    }
+    else {
+      $variables['image_background_url'] = "";
+    }
+  }
+}

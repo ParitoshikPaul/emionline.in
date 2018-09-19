@@ -1,0 +1,125 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$front_multiscroll_slides = array(
+  0 => array(
+    'type' => 'multiscroll_item',
+    'title' => 'welcome tologancee store',
+    'field_display_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title"><span>welcome to<br>logancee store</span></h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'We’re a team of creative and make amazing site in ecommerce from<br>Unite States. We love colour pastel, its make our design look so awesome.<br>Now ! come here and create fashion trending with us',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="btn-ex hover-effect07" href="#"><span>Explore Now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/img-block1.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'multiscroll_item',
+    'title' => 'Leather bags for men',
+    'field_display_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title"><span>Leather bags<br>for men</span></h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'Collection leather bags by designer C-Knightz brought a new fashion trend<br>for men elegance and courtesy. Combined with material from the leather luxury<br>category and also meticulous in every detail of the product, this collection<br>deserves a perfect choice for fashionable gentlemen.',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="btn-ex button" href="#"><span>Explore Now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/img-block2.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'multiscroll_item',
+    'title' => 'Unified mentioning',
+    'field_display_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="date-time"><span class="date">07</span>/ <span class="month">Sep</span></div><h3 class="title"><span>explore trending fashion in this week<br>with logan team</span></h3>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'Collection leather bags by designer C-Knightz brought a new fashion trend<br>for men elegance and courtesy. Combined with material from the leather luxury<br>category and also meticulous in every detail of the product, this collection<br>deserves a perfect choice for fashionable gentlemen.',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="btn-ex button" href="#"><span>Explore Now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/img-block3.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+);

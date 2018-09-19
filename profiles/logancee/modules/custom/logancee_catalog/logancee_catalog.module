@@ -1,0 +1,80 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee catalog feature.
+ */
+
+include_once 'logancee_catalog.features.inc';
+
+/**
+ * Implements hook_block_info().
+ */
+function logancee_catalog_block_info() {
+  $blocks = array();
+  $blocks['catalog_terms'] = array(
+    'info' => t('Categories'),
+  );
+  return $blocks;
+}
+
+/**
+ * Implements hook_block_view().
+ */
+function logancee_catalog_block_view($delta = '') {
+  $block = array();
+  switch ($delta) {
+    case 'catalog_terms':
+      $block['subject'] = '';
+      $block['content'] = logancee_catalog_category_tree();
+      break;
+  }
+  return $block;
+}
+
+function logancee_catalog_category_tree() {
+  $vocabulary = taxonomy_vocabulary_machine_name_load('shop_category');
+  $depth = 0;
+  $num_at_depth = 0;
+  $tree = taxonomy_get_tree($vocabulary->vid);
+  $output = "";
+  $output .= "<ul id='categories-nav' class='nav-accordion nav-categories'>\n<li class='level0'>";
+  foreach ($tree as $term) {
+    $diffdepth = 0;
+    if ($term->depth > $depth) {
+      $output .= '<span class="expand icon_minus-06"></span>';
+      $output .= "\n<ul class='level" . $term->depth . "'>\n<li class='level" . $term->depth . "'>";
+      $depth = $term->depth;
+      $num_at_depth = 0;
+    }
+    if ($term->depth < $depth) {
+      $diffdepth = $depth - $term->depth;
+      while ($diffdepth > 0) {
+        $output .= "</li>\n</ul>\n";
+        $diffdepth--;
+      }
+      $depth = $term->depth;
+    }
+    if (($term->depth == $depth) && ($num_at_depth > 0)) {
+      //print not first of this level
+      $output .= "</li>\n<li class='level" . $term->depth . "'>";
+    }
+
+    //check term label
+    $term_obj = taxonomy_term_load($term->tid);
+    $span_label = "";
+    if(isset($term_obj->field_taxonomytag[LANGUAGE_NONE][0]['value'])){
+      if($term_obj->field_taxonomytag[LANGUAGE_NONE][0]['value'] == "hot"){
+          $span_label = '<span class="cat-label cat-label-label2">' . $term_obj->field_taxonomytag[LANGUAGE_NONE][0]['value'] . '</span>';
+      }
+      else {
+        $span_label = '<span class="cat-label cat-label-label1">' . $term_obj->field_taxonomytag[LANGUAGE_NONE][0]['value'] . '</span>';
+      }
+    }
+
+    $output .= l($term->name . '&nbsp;' .$span_label, 'taxonomy/term/' . $term->tid, array('html' => TRUE ));
+    $num_at_depth++;
+  }
+  $output .= "</li>\n</ul>\n";
+
+  return $output;
+}

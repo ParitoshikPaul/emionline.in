@@ -1,0 +1,92 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$blogs = array(
+  0 => array(
+    'type' => 'blog',
+    'title' => 'TRENDING FOR 2015 !',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => "<p><strong>Unless you’re a still-scarred alum of finishing school, you’ve probably considered a tattoo at one point or another. The former calling card of sailors, punks and rebellious teens has become a hallmark of style setting in 2015—so much so that we’ve seen its impact everywhere from runways to the streets outside fashion week.</strong></p><p>Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce convallis metus id felis luctus adipiscing. In ut quam vitae odio lacinia tincidunt. In hac habitasse platea dictumst.</p><p>Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Praesent adipiscing. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Donec id justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.</p><blockquote><p>Sed a libero. Nunc nulla. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Etiam rhoncus.</p></blockquote><ol><li>In dui magna, posuere eget, vestibulum et, tempor auctor, justo.</li><li>Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.</li><li>Sed hendrerit. Maecenas vestibulum mollis diam. Phasellus magna.</li></ol><blockquote><p>Vivamus elementum semper nisi. Aenean viverra rhoncus pede. Curabitur turpis. Fusce commodo aliquam arcu. Sed cursus turpis vitae tortor.</p></blockquote><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In turpis.</li><li>Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo.</li><li>Vestibulum volutpat pretium libero. Suspendisse non nisl sit amet velit hendrerit rutrum.</li><li>Proin magna. Fusce ac felis sit amet ligula pharetra condimentum. Pellentesque posuere. In turpis.</li><li>Phasellus ullamcorper ipsum rutrum nunc.</li></ul><p>Curabitur nisi. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Vivamus elementum semper nisi. Phasellus ullamcorper ipsum rutrum nunc. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi.</p>",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 2,
+    'format' => 2,
+    'revision' => 0,
+    'field_blog_image' => array(
+      '0' => 'profiles/logancee/content/images/img_post_01.jpg',
+    ),
+    'field_category' => array(
+      '0' => array(
+        'name' => 'Fashion'
+      )
+    ),
+  ),
+  1 => array(
+    'type' => 'blog',
+    'title' => 'NEW SHOES FOR TREKKING BOYS',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => "<p><strong>Unless you’re a still-scarred alum of finishing school, you’ve probably considered a tattoo at one point or another. The former calling card of sailors, punks and rebellious teens has become a hallmark of style setting in 2015—so much so that we’ve seen its impact everywhere from runways to the streets outside fashion week.</strong></p><p>Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce convallis metus id felis luctus adipiscing. In ut quam vitae odio lacinia tincidunt. In hac habitasse platea dictumst.</p><p>Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Praesent adipiscing. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Donec id justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.</p><blockquote><p>Sed a libero. Nunc nulla. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Etiam rhoncus.</p></blockquote><ol><li>In dui magna, posuere eget, vestibulum et, tempor auctor, justo.</li><li>Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.</li><li>Sed hendrerit. Maecenas vestibulum mollis diam. Phasellus magna.</li></ol><blockquote><p>Vivamus elementum semper nisi. Aenean viverra rhoncus pede. Curabitur turpis. Fusce commodo aliquam arcu. Sed cursus turpis vitae tortor.</p></blockquote><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In turpis.</li><li>Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo.</li><li>Vestibulum volutpat pretium libero. Suspendisse non nisl sit amet velit hendrerit rutrum.</li><li>Proin magna. Fusce ac felis sit amet ligula pharetra condimentum. Pellentesque posuere. In turpis.</li><li>Phasellus ullamcorper ipsum rutrum nunc.</li></ul><p>Curabitur nisi. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Vivamus elementum semper nisi. Phasellus ullamcorper ipsum rutrum nunc. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi.</p>",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 2,
+    'format' => 2,
+    'revision' => 0,
+    'field_blog_image' => array(
+      '0' => 'profiles/logancee/content/images/img_post_02.jpg',
+    ),
+    'field_category' => array(
+      '0' => array(
+        'name' => 'Fashion'
+      )
+    ),
+  ),
+  2 => array(
+    'type' => 'blog',
+    'title' => 'STREET STYLE WITH LOGANCEE FASHION',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => "<p><strong>Unless you’re a still-scarred alum of finishing school, you’ve probably considered a tattoo at one point or another. The former calling card of sailors, punks and rebellious teens has become a hallmark of style setting in 2015—so much so that we’ve seen its impact everywhere from runways to the streets outside fashion week.</strong></p><p>Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Pellentesque egestas, neque sit amet convallis pulvinar, justo nulla eleifend augue, ac auctor orci leo non est. Fusce convallis metus id felis luctus adipiscing. In ut quam vitae odio lacinia tincidunt. In hac habitasse platea dictumst.</p><p>Praesent porttitor, nulla vitae posuere iaculis, arcu nisl dignissim dolor, a pretium mi sem ut ipsum. Praesent adipiscing. Vestibulum rutrum, mi nec elementum vehicula, eros quam gravida nisl, id fringilla neque ante vel mi. Donec id justo. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Sed aliquam, nisi quis porttitor congue, elit erat euismod orci, ac placerat dolor lectus quis orci.</p><blockquote><p>Sed a libero. Nunc nulla. Mauris turpis nunc, blandit et, volutpat molestie, porta ut, ligula. Fusce risus nisl, viverra et, tempor et, pretium in, sapien. Etiam rhoncus.</p></blockquote><ol><li>In dui magna, posuere eget, vestibulum et, tempor auctor, justo.</li><li>Pellentesque libero tortor, tincidunt et, tincidunt eget, semper nec, quam.</li><li>Sed hendrerit. Maecenas vestibulum mollis diam. Phasellus magna.</li></ol><blockquote><p>Vivamus elementum semper nisi. Aenean viverra rhoncus pede. Curabitur turpis. Fusce commodo aliquam arcu. Sed cursus turpis vitae tortor.</p></blockquote><ul><li>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. In turpis.</li><li>Proin pretium, leo ac pellentesque mollis, felis nunc ultrices eros, sed gravida augue augue mollis justo.</li><li>Vestibulum volutpat pretium libero. Suspendisse non nisl sit amet velit hendrerit rutrum.</li><li>Proin magna. Fusce ac felis sit amet ligula pharetra condimentum. Pellentesque posuere. In turpis.</li><li>Phasellus ullamcorper ipsum rutrum nunc.</li></ul><p>Curabitur nisi. Etiam sollicitudin, ipsum eu pulvinar rutrum, tellus ipsum laoreet sapien, quis venenatis ante odio sit amet eros. Vivamus elementum semper nisi. Phasellus ullamcorper ipsum rutrum nunc. Donec interdum, metus et hendrerit aliquet, dolor diam sagittis ligula, eget egestas libero turpis vel mi.</p>",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 2,
+    'format' => 2,
+    'revision' => 0,
+    'field_blog_image' => array(
+      '0' => 'profiles/logancee/content/images/img_post_03.jpg',
+    ),
+    'field_category' => array(
+      '0' => array(
+        'name' => 'Fashion'
+      )
+    ),
+  ),
+);

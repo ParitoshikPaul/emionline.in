@@ -1,0 +1,7 @@
+name = Logancee Enable
+description = UI to enable all features of the logancee store platform
+
+core = 7.x
+package = Logancee
+
+configure = admin/config/development/logancee-enable

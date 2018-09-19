@@ -1,0 +1,205 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$front_carousels = array(
+  0 => array(
+    'type' => 'front_carousel',
+    'title' => "Men's clothing",
+    'field_carousel_category' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanor<br>shirt",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanr Shirt is the best design of Artist Alex Goot. You should got it for your style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "<a class=\"btn-ex hover-effect02\" href=\"#\"><span>Shop Now</span></a>",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/slider_carousel1.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'front_carousel',
+    'title' => "Men's clothing",
+    'field_carousel_category' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanor<br>shirt",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanr Shirt is the best design of Artist Alex Goot. You should got it for your style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "<a class=\"btn-ex hover-effect02\" href=\"#\"><span>Shop Now</span></a>",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/slider_carousel2.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'front_carousel',
+    'title' => "Men's clothing",
+    'field_carousel_category' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanor<br>shirt",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanr Shirt is the best design of Artist Alex Goot. You should got it for your style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "<a class=\"btn-ex hover-effect02\" href=\"#\"><span>Shop Now</span></a>",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/slider_carousel3.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  3 => array(
+    'type' => 'front_carousel',
+    'title' => "Men's clothing",
+    'field_carousel_category' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanor<br>shirt",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanr Shirt is the best design of Artist Alex Goot. You should got it for your style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "<a class=\"btn-ex hover-effect02\" href=\"#\"><span>Shop Now</span></a>",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/slider_carousel4.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  4 => array(
+    'type' => 'front_carousel',
+    'title' => "Men's clothing",
+    'field_carousel_category' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanor<br>shirt",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "Giordanr Shirt is the best design of Artist Alex Goot. You should got it for your style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "<a class=\"btn-ex hover-effect02\" href=\"#\"><span>Shop Now</span></a>",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/slider_carousel5.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+);

@@ -1,0 +1,14 @@
+<?php
+/**
+ * @file
+ * logancee_store.features.inc
+ */
+
+/**
+ * Implements hook_ctools_plugin_api().
+ */
+function logancee_store_ctools_plugin_api($module = NULL, $api = NULL) {
+  if ($module == "strongarm" && $api == "strongarm") {
+    return array("version" => "1");
+  }
+}

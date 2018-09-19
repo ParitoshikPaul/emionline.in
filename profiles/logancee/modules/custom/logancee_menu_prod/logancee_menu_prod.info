@@ -1,0 +1,5 @@
+name = logancee_menu_prod
+description = Logancee tb megamenu in production
+core = 7.x
+package = Logancee
+version = 7.x-1.0

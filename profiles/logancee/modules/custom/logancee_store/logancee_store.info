@@ -1,0 +1,17 @@
+name = Logancee store
+description = Store configuration for logancee
+core = 7.x
+package = Logancee
+version = 7.x-1.0
+dependencies[] = commerce_checkout
+dependencies[] = commerce_multicurrency
+dependencies[] = ctools
+dependencies[] = features
+dependencies[] = strongarm
+features[ctools][] = strongarm:strongarm:1
+features[features_api][] = api:2
+features[variable][] = commerce_default_currency
+features[variable][] = commerce_enabled_currencies
+features[variable][] = commerce_multicurrency_conversion_settings
+features[variable][] = commerce_multicurrency_sync_provider
+features[variable][] = commerce_multicurrency_use_cross_conversion

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee custom feature.
+ */
+
+include_once 'logancee_custom.features.inc';

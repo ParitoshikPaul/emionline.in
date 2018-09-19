@@ -1,0 +1,83 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$fluid_boxes = array(
+  0 => array(
+    'type' => 'fluid_boxes',
+    'title' => 'Welcome to logancee store',
+    'field_image_alignment' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'right',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'We’re a team of creative and make amazing site in ecommerce from Unite States.<br>We love colour pastel, its make our designlook so awesome.<br> Now ! come here and create fashion trending with us',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="hover-effect07" href="#"><span>explore now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_featured_image' => array(
+      '0' => 'profiles/logancee/content/images/block_01.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'fluid_boxes',
+    'title' => 'LEATHER BAGS COLLECTION FOR MEN',
+    'field_image_alignment' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'left',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'Collection leather bags by designer C-Knightz brought a new fashion trend for men elegance and courtesy. Combined with material from the leather luxury category and also meticulous in every detail of the product, this collection deserves a perfect choice for fashionable gentlemen..',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="hover-effect07" href="#"><span>explore now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_featured_image' => array(
+      '0' => 'profiles/logancee/content/images/block_02.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+);

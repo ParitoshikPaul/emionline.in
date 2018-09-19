@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee multiscroll feature.
+ */
+
+include_once 'logancee_multiscroll.features.inc';

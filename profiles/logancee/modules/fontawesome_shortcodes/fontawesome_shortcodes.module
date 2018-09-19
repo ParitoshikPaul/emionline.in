@@ -1,0 +1,77 @@
+<?php
+/**
+ * @file
+ * Provides additional shortcodes filter framework and API (like WP shortcodes)
+ */
+
+/**
+ * Implementation of hook_filter_info()
+ */
+function fontawesome_shortcodes_shortcode_info() {
+
+    $shortcodes['fontawesomeicon'] = array(
+        'title' => t('Font awesome icon effect Shortcodes'), // (required) An administrative summary of what the filter does.
+        'description' => t('Sets up a custom filter that enables a Font awesome shortcodes.'), // Additional administrative information about the filter's behavior, if needed for clarification.
+        'process callback' => 'fontawesome_shortcodes_shortcode_fontawesomeicon',
+        'attributes callback' => 'fontawesome_shortcodes_fontawesomeicon_attributes',
+        'tips callback'  => 'fontawesome_shortcodes_fontawesomeicon_tip', // The name of a function that returns end-user-facing filter usage guidelines for the filter.
+    );
+
+    return $shortcodes;
+
+} // custom_shortcodes_filter_info
+
+
+/**
+ * Implementation of hook_theme().
+ */
+function fontawesome_shortcodes_theme() {
+    return array(
+        'shortcode_fontawesomeicon' => array(
+            'variables' => array('text' => '', 'name' => '','size' => '','style' => ''),
+        ),
+    );
+}
+
+/**
+ *
+ * Replace a given text formatted like a Font awesome icon.
+ *
+ * @param $attrs
+ * @param $text
+ */
+function fontawesome_shortcodes_shortcode_fontawesomeicon($attrs, $text) {
+    $attrs = shortcode_attrs(array(
+            'name' => '',
+            'size' => '',
+            'style' => '',
+        ),
+        $attrs
+    );
+
+    //$class = shortcode_add_class($attrs['class'], 'highlight-icon');
+    return theme('shortcode_fontawesomeicon', array('text' => $text, 'name' => $attrs['name'], 'size' => $attrs['size'],'style' => $attrs['style']));
+}
+
+
+function theme_shortcode_fontawesomeicon($vars) {
+
+    $name = empty($vars['name']) ? '' : $vars['name'];
+    $size = empty($vars['size']) ? '' : $vars['size'];
+
+    $style = empty($vars['style']) ? '' : ' style="' . check_plain($vars['style']) . '"';
+
+    $output = '<i class="fa fa-'.$name.' fa-'.$size.'" '.$style.'></i>';
+    //'<div '.$class_effect.'"><div class="highlight-icon">' . '<a href="' . $path . '"'. $class . ''. $style . '>' . $vars['text'] . '</a>' . '</div></div>';
+
+    return $output;
+}
+
+
+function fontawesome_shortcodes_fontawesomeicon_tip($format, $long) {
+    $output = array();
+    $output[] = '<p><strong>' . t('[fontawesomeicon (name="font awesome icon name" | size="icon size | style="aditional style"")][/fontawesomeicon]') . '</strong> ';
+    $output[] = t('Formats the text like as a font awesome icon. Additional style can be added by the <em>style</em> parameter.') . '</p>';
+
+    return implode(' ', $output);
+}

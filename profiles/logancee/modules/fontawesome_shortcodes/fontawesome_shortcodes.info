@@ -1,0 +1,6 @@
+name = Fontawesome Shortcodes Integration
+description = Provides additional shortcodes filter framework and API for fontawesome icons (like WP shortcodes)
+package = Shortcode
+core = 7.x
+dependencies[] = filter
+dependencies[] = shortcode

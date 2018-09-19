@@ -1,0 +1,192 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$clients = array(
+  0 => array(
+    'type' => 'clients',
+    'title' => 'Client 1',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_client_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/brand01.png'
+    ),
+    'field_url' => array(
+      'und' => array(
+        '0' => array(
+          'value' => 'http://themeforest.net'
+        )
+      )
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 1,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'clients',
+    'title' => 'Client 2',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_client_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/brand02.png'
+    ),
+    'field_url' => array(
+      'und' => array(
+        '0' => array(
+          'value' => 'http://themeforest.net'
+        )
+      )
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 1,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'clients',
+    'title' => 'Client 3',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_client_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/brand03.png'
+    ),
+    'field_url' => array(
+      'und' => array(
+        '0' => array(
+          'value' => 'http://themeforest.net'
+        )
+      )
+    ),
+    'language' => 'und',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 1,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  3 => array(
+    'type' => 'clients',
+    'title' => 'Client 4',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_client_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/brand04.png'
+    ),
+    'field_url' => array(
+      'und' => array(
+        '0' => array(
+          'value' => 'http://themeforest.net'
+        )
+      )
+    ),
+    'language' => 'und',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 1,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  4 => array(
+    'type' => 'clients',
+    'title' => 'Client 5',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_client_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/brand05.png'
+    ),
+    'field_url' => array(
+      'und' => array(
+        '0' => array(
+          'value' => 'http://themeforest.net'
+        )
+      )
+    ),
+    'language' => 'und',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 1,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  5 => array(
+    'type' => 'clients',
+    'title' => 'Client 6',
+    'body' => array(
+      'und' => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_client_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/brand06.png'
+    ),
+    'field_url' => array(
+      'und' => array(
+        '0' => array(
+          'value' => 'http://themeforest.net'
+        )
+      )
+    ),
+    'language' => 'und',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 1,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+);
+

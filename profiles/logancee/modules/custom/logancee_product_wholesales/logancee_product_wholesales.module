@@ -1,0 +1,40 @@
+<?php
+/**
+ * @file
+ * Code for the logancee_product_wholesales feature.
+ */
+
+include_once 'logancee_product_wholesales.features.inc';
+
+/**
+ * Implements hook_node_preprocess().
+ */
+function logancee_product_wholesales_preprocess_node(&$vars) {
+
+  $my_view_name = 'product_wholesale';
+  $my_display_name = 'block';
+
+  $my_view = views_get_view($my_view_name);
+  if ( is_object($my_view) ) {
+    $my_view->set_display($my_display_name);
+    $my_view->pre_execute();
+    $vars['content']['wholesales_add_to_cart'] = $my_view->render($my_display_name);
+  }
+
+}
+
+/**
+ * Implements hook_module_implements_alter().
+ */
+function logancee_product_wholesales_module_implements_alter(&$implementations, $hook) {
+
+  if ($hook == 'preprocess_node') {
+    // Move my_module_rdf_mapping() to the end of the list. module_implements()
+    // iterates through $implementations with a foreach loop which PHP iterates
+    // in the order that the items were added, so to move an item to the end of
+    // the array, we remove it and then add it.
+    $group = $implementations['logancee_product_wholesales'];
+    unset($implementations['logancee_product_wholesales']);
+    $implementations['logancee_product_wholesales'] = $group;
+  }
+}

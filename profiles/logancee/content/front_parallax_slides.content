@@ -1,0 +1,205 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$front_parallax_slides = array(
+  0 => array(
+    'type' => 'parallax_item',
+    'title' => 'Impression with men tattoo',
+    'field_parallax_subtext' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "<div class=\"text-small\">Fashion trending 2015</div>",
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="btn-ex hover-effect07" href="#"><span>Explore Now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/bg-parallax1.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'parallax_item',
+    'title' => 'Impression with men tattoo',
+    'field_parallax_subtext' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '[img class="img-responsive" src="/profiles/logancee/themes/loganceevisual/images/logo-parallax.png" alt=""/]',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, eiusmod tempor incididunt ut<br>labore et dolore magna aliqua.Praesent volutpat ut nisl in hendrerit.',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="btn-ex hover-effect07" href="#"><span>Explore Now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/bg-parallax2.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'parallax_item',
+    'title' => 'Super sale',
+    'field_parallax_subtext' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '[img class="img-responsive" src="/profiles/logancee/themes/loganceevisual/images/logo-parallax.png" alt=""/]',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "In anniversay 5 years of LOGANCEE store. We’re glad notice will sale off 30% for all<br>product on our store. Wow ! Come here.",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="btn-ex hover-effect02" href="#"><span>Explore Now</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/bg-parallax3.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  3 => array(
+    'type' => 'parallax_item',
+    'title' => 'Yet another parallax',
+    'field_parallax_subtext' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text-small">Fashion trending 2015</div>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "I love LoganCee fashion, here have everything that<br>i need, its so impression and style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/bg-parallax4.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  4 => array(
+    'type' => 'parallax_item',
+    'title' => 'Modern online store',
+    'field_parallax_subtext' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text-small">Fashion of the week</div>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => "I love LoganCee fashion, here have everything that<br>i need, its so impression and style",
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/images/bg-parallax5.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+);

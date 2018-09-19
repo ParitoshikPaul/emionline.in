@@ -1,0 +1,64 @@
+@button_bg_color : #ffffff;
+@button_text_color : #000000;
+@button_bg_hover_color : #000000;
+@button_hover_color : #ffffff;
+@button_border_color : #999999;
+
+input.form-text {
+  -webkit-border-radius: 0;
+  border-radius: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background: transparent;
+  border: 1px solid #ccc;
+  &:focus {
+    outline: none;
+  }
+}
+
+button.btn {
+  border: none;
+  border-radius: 0px;
+  cursor: pointer;
+  margin: 0;
+  outline: none;
+  overflow: visible;
+  padding: 0;
+  position: relative;
+  background: @button_bg_color;
+  height: 40px;
+  line-height: 38px;
+  padding: 0 15px;
+  border: 1px solid @button_border_color;
+  white-space: normal;
+  display: inline-block;
+  vertical-align: top;
+  text-transform: uppercase;
+  &:hover {
+    border-color: @button_bg_hover_color;
+    background: @button_bg_hover_color;
+    color: @button_hover_color;
+  }
+}
+
+button.btn {
+  color: @button_text_color;
+  background-color: @button_bg_color;
+  border-color: @button_border_color;
+  &:hover {
+    color: @button_hover_color;
+    border-color: @button_bg_hover_color;
+    background-color: @button_bg_hover_color;
+  }
+}
+
+.page-front-fluid2 {
+
+  a.btn-readmore, .top-compare .typo-maincompare .clearall a {
+    color: @button_text_color;
+    font-weight: normal;
+  }
+}

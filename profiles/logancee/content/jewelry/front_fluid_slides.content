@@ -1,0 +1,125 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$front_fluid_slides = array(
+  0 => array(
+    'type' => 'fluid_slider',
+    'title' => 'Slider 1',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">Hipster<br>trending<br>in 2015</h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text">Hipster style is a fashion trending for Gentleman and Lady with tattoos. You\'ll become so cool and attractive.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a href="#" class="btn-ex hover-effect02"><span>Shop Now !</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/slider_fullwidth_01.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'fluid_slider',
+    'title' => 'Slider 2',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">New<br>arrivals<br>in june</h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text">We just update so much new arrivals on our store with hipster clothes, messenger bags, shoes and accessories.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a href="#" class="btn-ex hover-effect02"><span>Shop Now !</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/slider_fullwidth_02.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'fluid_slider',
+    'title' => 'Slider 2',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">Sale off<br>30% for all</h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text">In anniversay 5 years of LOGANCEE store. We’re glad notice will sale off 30% for all product on our store. Wow ! Come here.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a href="#" class="btn-ex hover-effect02"><span>Shop Now !</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/slider_fullwidth_03.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  )
+);

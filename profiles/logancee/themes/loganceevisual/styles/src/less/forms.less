@@ -1,0 +1,25 @@
+@catalog_check_border: #ccc;
+@catalog_check_background: #dedede;
+@catalog_check_checked_background: #333;
+@catalog_check_checked_border: #dedede;
+
+.input-box,
+.options-list,
+.not-show-popup,
+.control {
+  input[type="checkbox"] {
+    display: none;
+  }
+
+  .radio {
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 11px;
+
+    .control-label {
+      padding: 5px 10px;
+      background: @catalog_check_background;
+      border: 1px solid @catalog_check_border;
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "loganceevisual",
+  "version": "0.0.0",
+  "authors": [
+    "joaogarin <joao.garin@gmail.com>"
+  ],
+  "description": "Logancee platform main theme",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "simple-line-icons": "~2.2.3",
+    "font-awesome": "fontawesome#~4.5.0",
+    "owl.carousel": "~2.0.0-beta.3",
+    "jquery-sticky": "~1.0.3",
+    "URIjs": "~1.15.1",
+    "animation.css": "~3.3.0",
+    "bootstrap": "~3.3.5",
+    "bootstrap-rtl": "~3.3.2",
+    "bootstrap-select": "~1.7.2",
+    "elegant-icons": "*",
+    "fontawesome": "~4.4.0",
+    "html5shiv": "~3.7.2",
+    "jcountdown": "~2.0.0",
+    "jquery": "1.11",
+    "jquery-colorbox": "~1.6.1",
+    "jquery-cookie": "~1.4.1",
+    "jquery-lazy": "~0.5.3",
+    "jquery-migrate": "~1.2.1",
+    "jquery-placeholder": "~2.1.2",
+    "jqueryui-touch-punch": "*",
+    "malihu-custom-scrollbar-plugin": "~3.0.9",
+    "nprogress": "~0.2.0",
+    "owl-carousel2": "~2.0.0-beta.3",
+    "respond": "~1.4.2",
+    "wow": "~1.1.2",
+    "fullpage.js": "~2.7.4",
+    "multiscroll.js": "~0.1.7"
+  }
+}

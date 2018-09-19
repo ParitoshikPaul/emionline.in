@@ -1,0 +1,199 @@
+//Shop catalog
+
+@catalog_filter_label: #000000;
+
+.catalog-category-view,
+.page-taxonomy {
+  .page-header {
+    display: none;
+  }
+}
+
+.catalog-category-view,
+.page-taxonomy {
+  .views-exposed-form {
+    margin-top: 20px;
+
+    .views-exposed-widget {
+
+      float: none;
+      clear: both;
+      width: 100%;
+
+      & > label{
+        font-family: Montserrat, arial, serif;
+        color: @catalog_filter_label;
+        font-size: 15px;
+        margin: 0;
+        outline: medium none;
+        padding: 15px 0;
+        text-transform: uppercase;
+        font-weight: normal;
+        position: relative;
+      }
+    }
+  }
+}
+
+.views-exposed-form .views-exposed-widget.views-widget-filter-commerce_price_amount {
+  padding-bottom: 50px;
+  position: relative;
+
+  .views-widget {
+    position: absolute;
+    bottom: 0;
+
+    .form-item-commerce-price-amount-min {
+      display: inline-block;
+      width: 25%;
+
+      input {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+      }
+    }
+
+    .form-item-commerce-price-amount-max {
+      display: inline;
+      width: auto;
+
+      label {
+        width: 25%;
+      }
+
+      input {
+        border: none;
+        background: transparent;
+        box-shadow: none;
+        display: inline;
+        width: 25%;
+      }
+    }
+  }
+}
+
+
+
+.price-range { padding:0 7.5px; }
+
+@catalog_slider_background: #d5d5d5;
+@catalog_slider_range_background: #333333;
+
+
+.bef-slider {
+  height:1px;
+  width:100%;
+  background:@catalog_slider_background;
+  position:relative;
+  margin:10px auto;
+  padding:0 7.5px;
+  border: none;
+}
+
+.bef-slider .ui-slider-range {
+  position:absolute;
+  top:0;
+  height:100%;
+  background:@catalog_slider_range_background;
+  cursor:pointer;
+  border: none;
+}
+.bef-slider .ui-slider-handle {
+  height:15px;
+  position:absolute;
+  top:-7px;
+  width:15px;
+  background:@catalog_slider_range_background;
+  margin-left:-7.5px;
+  cursor:e-resize;
+  border: none;
+  border-radius: 0px;
+}
+
+.colors-boxes-processed {
+  .form-item-field-color-value {
+    display: inline-block;
+  }
+}
+
+@catalog_radios_border: #dedede;
+@catalog_radios_hover_border: #ccc;
+
+.colored-radio {
+  background: white;
+  border: 2px solid @catalog_radios_border;
+  width: 27px;
+  height: 27px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-left: 5px;
+  font-size: 0px;
+
+  &:hover {
+    opacity: 1;
+    border: 2px solid @catalog_radios_hover_border;
+  }
+
+  &.checked {
+    opacity: 1;
+    border: 2px solid @catalog_radios_hover_border;
+  }
+
+  &.hidden-radio {
+    display: none;
+  }
+}
+
+.clear-colors {
+  position: relative;
+  border-radius: 100%;
+  &:before {
+    content: "X";
+    font-size: 11px;
+    position: absolute;
+    left: 8px;
+    top: 3px;
+    font-weight: bold;
+  }
+}
+
+@catalog_check_border: #ccc;
+@catalog_check_background: #dedede;
+@catalog_check_checked_background: #333;
+@catalog_check_checked_border: #dedede;
+
+.views-widget-filter-field_size_value {
+  .form-control {
+    background: transparent;
+    border:none;
+    box-shadow: none;
+    height: auto;
+    padding: 0;
+  }
+
+  .form-type-bef-checkbox {
+    display: inline-block;
+    label {
+      width: 27px;
+      height: 27px;
+      background: @catalog_check_background;
+      border: 1px solid @catalog_check_border;
+      margin-right: 5px;
+      line-height: 27px;
+      font-size: 12px;
+      text-align: center;
+      cursor: pointer;
+    }
+
+    input {
+      display: none;
+    }
+
+    input:checked + label {
+      background: @catalog_check_checked_background;
+      color: white;
+      border: 1px solid @catalog_check_checked_border;
+    }
+  }
+}

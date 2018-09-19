@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee blog feature.
+ */
+
+include_once 'logancee_blog.features.inc';

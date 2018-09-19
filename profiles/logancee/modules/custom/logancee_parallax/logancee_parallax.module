@@ -1,0 +1,26 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee parallax feature.
+ */
+
+include_once 'logancee_parallax.features.inc';
+
+/*
+* Implements template_preprocess_node
+*/
+function logancee_parallax_preprocess_node(&$variables) {
+  if ($variables['node']->type == "parallax_item") {
+    $node = $variables['node'];
+
+    $field_items = field_get_items('node', $node, 'field_background_image');
+    $uri = $field_items[0]['uri'];
+
+    if (isset($uri)) {
+      $variables['image_background_url'] = file_create_url($uri);
+    }
+    else {
+      $variables['image_background_url'] = "";
+    }
+  }
+}

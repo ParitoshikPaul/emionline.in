@@ -1,0 +1,157 @@
+.sticky-wrapper {
+  height: auto !important;
+}
+
+.sticky-wrapper.is-sticky .header-menu {
+  z-index: 10000;
+}
+
+//Container - layout
+.main-container {
+  padding-bottom: 35px;
+
+  .not-front & {
+    padding-top: 35px;
+  }
+
+  .page-front-carousel &,
+  .page-front-fluid & {
+    padding-top: 0px;
+  }
+
+  & > .row {
+    margin: 0;
+
+    & > .col-sm-12 {
+      padding: 0;
+    }
+  }
+}
+
+.not-logged-in.page-user-login,
+.not-logged-in.page-user {
+  .page-header {
+    display: none;
+  }
+}
+
+
+.breadcrumb {
+  background: transparent;
+}
+
+.messages {
+  padding: 20px;
+}
+
+
+.home03 {
+  .main-slide-inner {
+    padding: 0 15px;
+  }
+
+  .nav-top {
+    background: transparent;
+  }
+
+  .container{
+    width: 100%;
+    max-width: 100%;
+  }
+
+}
+
+.home04 {
+  .header-layout-4 li.level-1 > a > .cat-label {
+    bottom: auto;
+    top: 0;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
+
+
+.node-type-page {
+
+  .page-header {
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 30px 0;
+    position: relative;
+    letter-spacing: 2px;
+    margin: 0;
+    border: none;
+
+    &:after {
+      content: '';
+      display: inline-block;
+      background: url("../images/bg-line-dot.png") no-repeat center;
+      position: absolute;
+      margin: 0 auto;
+      left: 0;
+      right: 0;
+      bottom: 5px;
+      height: 10px;
+      width: 60px;
+      text-align: center;
+    }
+  }
+
+  .about-subtitle {
+    text-align: center;
+    padding: 20px 0;
+
+    p {
+      display: inline-block;
+      max-width: 730px;
+      font-size: 14px;
+      line-height: 30px;
+    }
+  }
+
+  .about-des {
+    padding: 20px 0 50px;
+    border-bottom: 1px solid rgba(204,204,204,0.5);
+    p {
+      font-size: 13px;
+      line-height: 30px;
+      text-align: center;
+    }
+  }
+}
+
+.box-wrapper {
+  background-color: #f0f0f0;
+}
+
+.typo-wrapper.boxed {
+  max-width: 1230px !important;
+  margin: 0 auto;
+
+  .main-container {
+    padding-top: 0px;
+  }
+}
+
+.resizable-textarea textarea {
+  border-radius: 0px;
+}
+
+@text_color : #000000;
+
+body .toolbar .toolbar-top .amount,
+body .toolbar .toolbar-top .sorter .sort-by label,
+body .toolbar .toolbar-top .limiter label,
+body .toolbar p.typo-toolbar-label,
+body .toolbar .toolbar-top .sorter .view-mode label,
+body .toolbar .toolbar-top .pages strong,
+.product-view .product-shop .product-name h1,
+.std ul, .std ol, .std dl, .std p, .std address, .std blockquote,
+.product-view .product-shop .product-options dt label.required,
+.product-view .product-shop .product-options dd select,
+.page-title h1, .page-title h2, .page-title h3{
+  color: @text_color;
+}

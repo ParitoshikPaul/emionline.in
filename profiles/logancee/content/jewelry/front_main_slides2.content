@@ -1,0 +1,169 @@
+<?php
+global $base_url;
+$front_main_slides2 = array(
+  0 => array(
+    'type' => 'front_main_slider2',
+    'title' => 'Slider 1',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">LEATHER MESSENGER BAG 2016</h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text">Neque porro quisquam est qui dolorem ipsum quia<br> dolor sit amet, consectetur.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="btn-slide"><a class="hover-effect07" href="#"><span>Shop Now !</span></a></div>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_top_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h5 class="top-title">NEW ARRIVAL COMING SOON</h5>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_text_position' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'left',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/image_slider_01.png',
+    ),
+    'language' => 'en',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'front_main_slider2',
+    'title' => 'Slider 2',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">LEATHER MESSENGER BAG 2016</h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text">Neque porro quisquam est qui dolorem ipsum quia<br> dolor sit amet, consectetur.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="btn-slide"><a class="hover-effect07" href="#"><span>Shop Now !</span></a></div>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_top_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h5 class="top-title">NEW ARRIVAL COMING SOON</h5>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_text_position' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'left',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/image_slider_02.png',
+    ),
+    'language' => 'en',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'front_main_slider2',
+    'title' => 'Slider 3',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">LEATHER MESSENGER BAG 2016</h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text">Neque porro quisquam est qui dolorem ipsum quia<br> dolor sit amet, consectetur.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="btn-slide"><a class="hover-effect07" href="#"><span>Shop Now !</span></a></div>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_top_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h5 class="top-title">NEW ARRIVAL COMING SOON</h5>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_text_position' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => 'left',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/jewelry/images/image_slider_03.png',
+    ),
+    'language' => 'en',
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  )
+);

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee clients feature.
+ */
+
+include_once 'logancee_clients.features.inc';

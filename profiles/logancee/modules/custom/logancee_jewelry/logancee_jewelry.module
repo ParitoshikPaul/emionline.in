@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee jewelry feature.
+ */
+
+include_once 'logancee_jewelry.features.inc';

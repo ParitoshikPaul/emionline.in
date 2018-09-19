@@ -1,0 +1,14 @@
+{
+  "name": "loganceevisual",
+  "version": "1.0.0",
+  "description": "Logancee theme packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "joaogarin",
+  "license": "ISC",
+  "devDependencies": {
+    "less": "^2.6.1"
+  }
+}

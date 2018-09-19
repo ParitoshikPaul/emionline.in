@@ -1,0 +1,107 @@
+.container {
+    width: 100%;
+    max-width: 100%;
+}
+.boxed {
+    max-width: 100% !important;
+}
+.top-direct-wrap {
+    padding: 0 15px;
+}
+.main-slide-inner {
+    padding: 0 15px;
+}
+
+/* HOME 04 */
+.home04 .typo-wrapper {
+    padding: 0 45px;
+}
+.cms-index-index .header-layout-4 #typo-sticky-header {
+    top: 0;
+}
+.header-layout-4 .is-sticky #typo-sticky-header {
+    padding: 0 45px;
+}
+.cms-index-index .header-layout-4 .is-sticky #typo-sticky-header {
+    box-shadow: none;
+}
+.cms-index-index .header-layout-4 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 45px;
+}
+.cms-index-index .header-layout-4 .header-menu {
+    padding: 0;
+}
+.cms-index-index .header-layout-4 li.level0 > a > span > .cat-label {
+    bottom: auto;
+    top: 0;
+}
+.home04.cms-index-index .footer-container {
+    padding: 0 45px;
+}
+
+/* HOME 03 */
+.home03 .typo-wrapper {
+  padding: 30px 15px;
+}
+.cms-index-index .header-layout-3 .container {
+    padding-left: 45px;
+    padding-right: 45px;
+}
+.header-layout-3 .is-sticky .container {
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.home03 .global-site-notice {
+    background-color: transparent;
+    border-bottom: none;
+}
+.home03 .global-site-notice > div > p {
+    background-color: #f2f2f2;
+}
+
+/* HOME 07 */
+.home07 .typo-wrapper {
+    padding: 0;
+}
+.home07 .main-slide-inner {
+    padding: 0;
+}
+
+/* HOME 09 */
+.home09 .typo-wrapper {
+    padding: 0 15px;
+}
+.home09 .is-sticky #typo-sticky-header {
+    padding: 0 15px;
+}
+
+@media (max-width: 767px) {
+    .home04 .typo-wrapper {
+        padding: 0 15px;
+    }
+    .header-layout-4 .is-sticky #typo-sticky-header {
+        padding: 0 15px;
+    }
+    .cms-index-index .header-layout-4 {
+        padding: 0 15px;
+    }
+    .home04.cms-index-index .footer-container {
+        padding: 0 15px;
+    }
+
+    .home03 .typo-wrapper {
+        padding: 15px 0;
+    }
+    .cms-index-index .header-layout-3 .container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .home09 .typo-wrapper {
+        padding: 0;
+    }
+}

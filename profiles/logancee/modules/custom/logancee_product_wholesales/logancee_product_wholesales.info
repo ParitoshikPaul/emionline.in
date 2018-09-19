@@ -1,0 +1,8 @@
+name = logancee_product_wholesales
+core = 7.x
+package = Features
+dependencies[] = views
+dependencies[] = commerce_add_to_cart_extras
+features[ctools][] = views:views_default:3.0d
+features[features_api][] = api:2
+features[views_view][] = product_wholesale

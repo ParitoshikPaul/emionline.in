@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee carousel feature.
+ */
+
+include_once 'logancee_carousel.features.inc';

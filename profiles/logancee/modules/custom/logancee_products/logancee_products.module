@@ -1,0 +1,50 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee products feature.
+ */
+
+include_once 'logancee_products.features.inc';
+
+function logancee_products_preprocess_views_view(&$vars) {
+
+  if ($vars['view']->name == 'product_teasers') {
+    if (isset($vars['view']->filter['tid']->value)) {
+      foreach ($vars['view']->filter['tid']->value as $value) {
+
+        //add right class to view so that filters view can switch
+        $term_id = $value;
+
+        global $theme;
+        $exp_theme = explode('/', (drupal_get_path('theme', $theme)));
+        $theme_name = array_pop($exp_theme);
+        $vars['classes_array'][] = $theme_name . '-theme';
+        // but you can simply do the following as well
+        $vars['classes_array'][] = 'view-teasers-term-' . $term_id;
+
+      }
+    }
+  }
+}
+
+
+/**
+ * Implements hook_entity_info_alter().
+ */
+function logancee_products_entity_info_alter(&$entity_info) {
+  $entity_info['node']['view modes']['list'] = array(
+    'label' => t('List'),
+    'custom settings' => TRUE,
+  );
+}
+
+/**
+ * Implements hook_form_FORM_ID_alter().
+ */
+function logancee_custom_form_commerce_cart_add_to_cart_form_alter(&$form, &$form_state, $form_id) {
+  if (!empty($form['add_to_wishlist']) && array($form['add_to_wishlist'])) {
+    $form['add_to_wishlist']['#attributes']['data-toggle'] = 'tooltip';
+    $form['add_to_wishlist']['#attributes']['data-placement'] = 'top';
+    $form['add_to_wishlist']['#attributes']['data-original-title'] = t('Add to Wishlist');
+  }
+}

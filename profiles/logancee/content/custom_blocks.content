@@ -1,0 +1,51 @@
+<?php
+global $base_url;
+
+$custom_blocks = array(
+  0 => array(
+    'title' => '<none>',
+    'description' => 'Mega menu Block 4',
+    'status' => 1,
+    'weight' => 0,
+    'region' => '',
+    'visibility' => 0,
+    'pages' => '',
+    'cache' => -1,
+    'content' => '[item class="mega-blockright"]<img class="img-responsive" src="' . $base_url . '/profiles/logancee/themes/loganceevisual/images/megamenu-blockright.jpg" alt=""/>[item class="mega-right block-center"][item class="text-small h3"]Men’s shoes[/item][item class="text-large h3"]Sale up to 30% off[/item]
+<a class="btn-ex hover-effect02" href="#"><span>Explore Now</span></a>[/item][/item]',
+  ),
+  1 => array(
+    'title' => '<none>',
+    'description' => 'Mega menu Block 1',
+    'status' => 1,
+    'weight' => 0,
+    'region' => '',
+    'visibility' => 0,
+    'pages' => '',
+    'cache' => -1,
+    'content' => '<img class="img-responsive" src="' . $base_url . '/profiles/logancee/themes/loganceevisual/images/megamenu-block-top-sub1.jpg" alt=""/>',
+  ),
+  2 => array(
+    'title' => '<none>',
+    'description' => 'Mega menu Block 2',
+    'status' => 1,
+    'weight' => 0,
+    'region' => '',
+    'visibility' => 0,
+    'pages' => '',
+    'cache' => -1,
+    'content' => '<img class="img-responsive" src="' . $base_url . '/profiles/logancee/themes/loganceevisual/images/megamenu-block-top-sub2.jpg" alt=""/>',
+  ),
+  3 => array(
+    'title' => '<none>',
+    'description' => 'Mega menu Block 3',
+    'status' => 1,
+    'weight' => 0,
+    'region' => '',
+    'visibility' => 0,
+    'pages' => '',
+    'cache' => -1,
+    'content' => '<img class="img-responsive" src="' . $base_url . '/profiles/logancee/themes/loganceevisual/images/megamenu-block-top-sub3.jpg" alt=""/>',
+  ),
+);
+

@@ -1,0 +1,95 @@
+<?php
+/**
+ * @file
+ * Module file for logancee_menu_prod.
+ */
+
+/**
+ * Implements hook_menu_link_alter().
+ */
+function logancee_menu_prod_menu_link_alter(&$item) {
+  if ($item['link_path'] == "front-carousel") {
+    $item['options']['alter'] = TRUE;
+    $item['link_path'] = 'http://logancee.themonkeythemes.com/front-carousel';
+  }
+  if ($item['link_path'] == "<front>") {
+    $item['options']['alter'] = TRUE;
+    $item['link_path'] = 'http://logancee.themonkeythemes.com';
+  }
+  if ($item['link_path'] == "front-fluid") {
+    $item['options']['alter'] = TRUE;
+    $item['link_path'] = 'http://logancee.themonkeythemes.com/front-fluid';
+  }
+  if ($item['link_path'] == "front-parallax") {
+    $item['options']['alter'] = TRUE;
+    $item['link_path'] = 'http://logancee.themonkeythemes.com/front-parallax';
+  }
+  if ($item['link_path'] == "front-multiscroll") {
+    $item['options']['alter'] = TRUE;
+    $item['link_path'] = 'http://logancee.themonkeythemes.com/front-multiscroll';
+  }
+  if ($item['link_path'] == "front-sidebar") {
+    $item['options']['alter'] = TRUE;
+    $item['link_path'] = 'http://logancee.themonkeythemes.com/front-sidebar';
+  }
+}
+
+
+/**
+ * Implements hook_menu_alter().
+ */
+function logancee_menu_prod_menu_alter(&$items) {
+  $links = menu_load_links('main-menu');
+
+  foreach ($links as $link) {
+    menu_link_save($link);
+  }
+
+  $item = array(
+    'link_path' => 'http://logancee2.themonkeythemes.com',
+    'link_title' => t('Home Sunglasses'),
+    'menu_name' => 'main-menu',
+    // Menu machine name, for example: main-menu
+    'weight' => 10,
+    'plid' => 581,
+    'module' => 'menu',
+  );
+
+  menu_link_save($item);
+
+  $item = array(
+    'link_path' => 'http://logancee3.themonkeythemes.com',
+    'link_title' => t('Home Jewelry'),
+    'menu_name' => 'main-menu',
+    // Menu machine name, for example: main-menu
+    'weight' => 10,
+    'plid' => 581,
+    'module' => 'menu',
+  );
+
+  menu_link_save($item);
+
+  $item = array(
+    'link_path' => 'http://logancee4.themonkeythemes.com',
+    'link_title' => t('Home Interior'),
+    'menu_name' => 'main-menu',
+    // Menu machine name, for example: main-menu
+    'weight' => 10,
+    'plid' => 581,
+    'module' => 'menu',
+  );
+
+  menu_link_save($item);
+
+  $item = array(
+    'link_path' => 'http://logancee5.themonkeythemes.com',
+    'link_title' => t('Home vertical Nav'),
+    'menu_name' => 'main-menu',
+    // Menu machine name, for example: main-menu
+    'weight' => 10,
+    'plid' => 581,
+    'module' => 'menu',
+  );
+
+  menu_link_save($item);
+}

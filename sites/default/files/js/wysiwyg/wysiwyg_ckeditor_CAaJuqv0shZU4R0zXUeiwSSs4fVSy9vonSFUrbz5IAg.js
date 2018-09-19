@@ -1,0 +1,1 @@
+window.CKEDITOR_BASEPATH = '/emiclub/profiles/logancee/libraries/ckeditor/';

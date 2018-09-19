@@ -1,0 +1,63 @@
+@footer_grey_text_color: #333333;
+@footer_grey_background_color: #e7e7e7;
+
+@footer_white_text_color: #333333;
+@footer_white_background_color: #ffffff;
+
+.footer-container.grey,
+.footer-container.grey .footer-inner{
+  color: @footer_grey_text_color;
+  background-color: @footer_grey_background_color;
+}
+
+.footer-container.white,
+.footer-container.white .footer-inner {
+  color: @footer_white_text_color;
+  background-color: @footer_white_background_color;
+}
+
+.home03 {
+  .footer-container {
+    background: transparent;
+  }
+}
+
+footer.footer-container {
+
+  .information-footer .footer-static {
+    padding: 0;
+    margin-bottom: 20px;
+    @media(min-width:767px){
+      padding: 0 30px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .footer-static {
+    padding: 0;
+    margin-bottom: 20px;
+    @media(min-width:767px){
+      padding: 0 30px;
+      margin-bottom: 0px;
+    }
+
+    ul li a {
+      padding: 0;
+      &:hover {
+        padding-left: 10px;
+      }
+    }
+
+    h3 {
+      margin: 0 0 20px 0;
+
+      @media(min-width:767px){
+        margin: 0 0 45px 0;
+      }
+
+      & + ul {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the Logancee newsletter feature.
+ */
+
+include_once 'logancee_newsletter.features.inc';

@@ -1,0 +1,108 @@
+name = Logancee visual base theme
+description = Logancee crowdfunding base theme
+core = 7.x
+base theme = bootstrap
+
+; Logo and Name toggle
+; --------------
+settings[toggle_name] = 0
+settings[toggle_logo] = 1
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[navigation]     = 'Navigation'
+regions[navigation_mobile]     = 'Navigation mobile'
+regions[search]     = 'search'
+regions[currency] = 'currency'
+regions[language_switch] = 'Language Swticher'
+regions[header_top]         = 'Header Top'
+regions[vertical_header_content]         = 'Vertical Header content'
+regions[header]         = 'Top Bar'
+regions[hero]           = 'Hero Unit'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Primary'
+regions[sidebar_first_sticky]  = 'Primary sticky'
+regions[sidebar_second] = 'Secondary'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+stylesheets[all][] = fonts/elegantfont/css/elegantfont.css
+stylesheets[all][] = bower_components/simple-line-icons/css/simple-line-icons.css
+stylesheets[all][] = bower_components/font-awesome/css/font-awesome.min.css
+stylesheets[all][] = bower_components/owl.carousel/dist/assets/owl.carousel.min.css
+stylesheets[all][] = bower_components/owl.carousel/dist/assets/owl.theme.default.min.css
+stylesheets[all][] = bower_components/bootstrap-select/dist/css/bootstrap-select.min.css
+stylesheets[all][] = bower_components/animation.css/animate.min.css
+stylesheets[all][] = bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css
+stylesheets[all][] = bower_components/jquery-colorbox/example1/colorbox.css
+stylesheets[all][] = css/logancee/grid.css
+stylesheets[all][] = css/logancee/accordion.css
+stylesheets[all][] = css/logancee/configurable.css
+stylesheets[all][] = css/logancee/responsive.css
+stylesheets[all][] = css/logancee/colorbox/colorbox.css
+stylesheets[all][] = css/main.css
+stylesheets[all][] = css/tb_megamenu.css
+
+; For information on choosing the desired method, please read the Drupal
+; Bootstrap sub-theme "how-to" documentation:
+; https://drupal.org/node/1978010
+
+; ;----------------------------------
+; ; METHOD 1: Bootstrap Source Files
+; ;----------------------------------
+;
+; ;;;;;;;;;;;;;;;;;;;;;
+; ;; Scripts
+; ;;;;;;;;;;;;;;;;;;;;;
+;
+; scripts[] = 'bootstrap/js/affix.js'
+; scripts[] = 'bootstrap/js/alert.js'
+; scripts[] = 'bootstrap/js/button.js'
+; scripts[] = 'bootstrap/js/carousel.js'
+; scripts[] = 'bootstrap/js/collapse.js'
+; scripts[] = 'bootstrap/js/dropdown.js'
+; scripts[] = 'bootstrap/js/modal.js'
+; scripts[] = 'bootstrap/js/tooltip.js'
+; scripts[] = 'bootstrap/js/popover.js'
+; scripts[] = 'bootstrap/js/scrollspy.js'
+; scripts[] = 'bootstrap/js/tab.js'
+; scripts[] = 'bootstrap/js/transition.js'
+;
+; ; Disable BootstrapCDN if using Bootstrap source files in your sub-theme.
+; settings[bootstrap_cdn] = ''
+
+scripts[] = ext/modernizr.custom.js
+scripts[] = ext/elevatezoom/jquery.elevatezoom.js
+scripts[] = ext/imagesloaded.js
+scripts[] = ext/jquery.easing.min.js
+scripts[] = bower_components/owl.carousel/dist/owl.carousel.min.js
+scripts[] = bower_components/jquery-sticky/jquery.sticky.js
+scripts[] = bower_components/bootstrap-select/dist/js/bootstrap-select.min.js
+scripts[] = bower_components/jquery-lazy/jquery.lazy.min.js
+scripts[] = bower_components/jquery-mousewheel/jquery.mousewheel.min.js
+scripts[] = bower_components/jquery-placeholder/jquery.placeholder.min.js
+;scripts[] = bower_components/jquery-ui/jquery-ui.min.js
+scripts[] = bower_components/jqueryui-touch-punch/jquery.ui.touch-punch.min.js
+scripts[] = bower_components/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.js
+scripts[] = bower_components/jquery-colorbox/jquery.colorbox-min.js
+scripts[] = bower_components/underscore/underscore-min.js
+scripts[] = js/jquery.accordion.js
+scripts[] = js/loganceevisual.js
+scripts[] = js/productImages.js
+
+
+; ;-------------------------
+; ; METHOD 2: Bootstrap CDN
+; ;-------------------------
+;
+; Method 2 uses BootstrapCDN, the only thing you might need to provide here
+; is overrides to Bootstrap theme settings. Copy them here from the base theme
+; to override.

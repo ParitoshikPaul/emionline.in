@@ -1,0 +1,125 @@
+<?php
+global $base_url;
+$langcode_current = $GLOBALS['language']->language;
+$front_fluid2_slides = array(
+  0 => array(
+    'type' => 'fluid2_slider',
+    'title' => 'Slider 1',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">Wood clock <span class="price">$80</span></h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. sque sed scelerisque arcu. Sed vel luctus elit, at ultricies odion tuniomi loi. Aliquam vehicula.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="hover-effect07" href="#"><span>Shop Now !</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/interior/images/slider_fullwidth_01.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  1 => array(
+    'type' => 'fluid2_slider',
+    'title' => 'Slider 2',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">Wood chair <span class="price">$120</span></h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. sque sed scelerisque arcu. Sed vel luctus elit, at ultricies odion tuniomi loi. Aliquam vehicula.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="hover-effect07" href="#"><span>Shop Now !</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/interior/images/slider_fullwidth_02.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  ),
+  2 => array(
+    'type' => 'fluid2_slider',
+    'title' => 'Slider 2',
+    'field_slide_title' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<h2 class="title">Cushion chair <span class="price">$180</span></h2>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'body' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<div class="text hidden-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit. sque sed scelerisque arcu. Sed vel luctus elit, at ultricies odion tuniomi loi. Aliquam vehicula.</div>',
+          'summary' => '',
+          'format' => 'full_html',
+        ),
+      )
+    ),
+    'field_button' => array(
+      LANGUAGE_NONE => array(
+        0 => array(
+          'value' => '<a class="hover-effect07" href="#"><span>Shop Now !</span></a>',
+          'format' => 'full_html',
+        )
+      )
+    ),
+    'field_background_image' => array(
+      '0' => 'profiles/logancee/content/interior/images/slider_fullwidth_03.jpg',
+    ),
+    'language' => $langcode_current,
+    'uid' => 3,
+    'status' => 1,
+    'promote' => 0,
+    'sticky' => 0,
+    'comment' => 0,
+    'format' => 2,
+    'revision' => 0,
+  )
+);
